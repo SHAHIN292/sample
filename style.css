@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 20px 50px;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 700;
+}
+.navbar ul{
+    margin-left: 20px;
+    margin-top: 7.5px;
+}
+.navbar ul li{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.collapse ul{
+    list-style: none;
+}
+.height{
+    height: 84vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+}
+.page{
+    padding: 0;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+}
+.image-fluid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+/* costome */
+
+.profile{
+    width: 100%;
+}
+.profile-content{
+    padding: 10px;
+}
+.profile-content .profile1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 15px 0;
+}
+.profile1 a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.profile2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile2 .image{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    overflow: hidden;
+}
+.profile2 .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.shop{
+    width: 100%;
+    height: 100%;
+    padding: 30px 15px;
+}
+.shop1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.shop1 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.shop2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop2 .simage{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    overflow: hidden;
+}
+.shop2 .simage img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s;
+}
+.shop2 .simage:hover img{
+    transform: scale(1.2);
+}
+.about{
+    width: 100%;
+    height: 100%;
+    padding: 25px 15px;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-img{
+    width: 50%;
+}
+.about-text{
+    width: 50%;
+    padding: 40px;
+    margin-left: 50px;
+}
+.about-text a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+.follow{
+    width: 100%;
+    height: 100%;
+    padding: 25px 15px;
+}
+.follow h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.follow-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow-content img{
+    width: calc(100% / 6 - 10px);
+}
+.project{
+    width: 100%;
+    height: 100%;
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project1{
+    padding: 10px 40px 10px 0;
+}
+.project2{
+    padding: 10px 0 10px 40px;
+    border-left: 1px solid rgb(133, 133, 133);
+}
+.project1 p, .project2 p{
+    text-align: left;
+    margin: 20px 0;
+}
+.project1 a, .project2 a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+.hr4{
+    margin: 30px auto;
+    width: 98%;
+}
+.together{
+    width: 100%;
+    height: 100%;
+    padding: 25px 15px;
+}
+.together-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.together1{
+    width: 50%;
+    padding: 10px 20px 10px 0;
+}
+.together1 p{
+    margin: 20px 0;
+
+}
+.together a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.together1 a:hover{
+    color: blue;
+}
+.together2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    width: 50%;
+}
+.together2 a{
+    display: block;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.together2 a .ther3{
+    margin-right: 40px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 15px;
+    background: #e0e0e0;
+}
+.footer .footer1,
+.footer .footer2{
+    display: flex;
+}
+.footer1 a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 9px 16px;
+}
+.footer2 a{
+    margin-left: 10px;
+    font-variant: small-caps;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background: #aaa8a8;
+    color: #000;
+    padding: 9px 16px;
+    border-radius: 6px;
+}
+@media screen and (max-width:1185px){
+    .col-md-3{
+        width: 100%;
+    }
+    .one{
+        width: 40%;
+        height: 300px;
+        margin: 15px 0 5px 0;
+        padding: unset !important;
+        border: 1px solid;
+    }
+    .about-text{
+        margin-left: 100px;
+        
+    }
+    /* .shop2{
+        flex-wrap: wrap;
+    }
+    .shop2 .simage{
+        width: 45%;
+    } */
+}
+@media screen and (max-width:992px){
+    
+    .about-content{
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+        margin: 0;
+        padding: 30px 0px 10px 0;
+    }
+    .follow-content{
+        flex-wrap: wrap;
+    }
+    .follow-content img{
+        width: calc(100% / 3 - 10px);
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:750px){
+    .col-md-3{
+        width: 100%;
+    }
+    .one{
+        width: 40%;
+    }
+    .shop2{
+        flex-wrap: wrap;
+    }
+    .shop2 .simage{
+        width: 45%;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+        margin-left: -10px;
+    }
+    .about-text{
+        width: 100%;
+        margin: 0;
+        padding: 30px 0px 10px 0;
+    }
+    .together-content{
+        flex-direction: column;
+    }
+    .together1 , .together2{
+        width: 100%;
+    }
+    .together2{
+        padding: 15px 30px 15px unset;
+        margin-left: unset;
+    }
+}
+@media screen and (max-width:600px){
+    .col-md-3{
+        width: 100%;
+    }
+    .one{
+        width: 35%;
+    }
+    .profile2 .image{
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .margin{
+        margin-bottom: 10px !important;
+        margin-top: -30px !important;
+    }
+    .shop2{
+        flex-wrap: wrap;
+    }
+    .shop2 .simage{
+        width: 45%;
+    }
+    .about-img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .about-text{
+        width: 100%;
+        margin: 0;
+        padding: 30px 0px 10px 0;
+    }
+    .follow-content{
+        flex-wrap: wrap;
+    }
+    .follow-content img{
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 10px;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .project2{
+        padding-left: unset;
+        border-left: none;
+        border-top: 1px solid rgb(133, 133, 133);
+    }
+    .together-content{
+        flex-direction: column;
+    }
+    .together1 , .together2{
+        width: 100%;
+    }
+    .together2{
+        padding: 15px 30px 15px unset;
+        margin-left: unset;
+    }
+}
+@media screen and (max-width:400px){
+    .col-md-3{
+        width: 100%;
+    }
+    .one{
+        width: 65%;
+
+    }
+    .onee{
+        display: none;
+    }
+    .profile2 .image{
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .margin{
+        margin-bottom: 10px !important;
+        margin-top: -30px !important;
+    }
+    .shop2{
+        flex-wrap: wrap;
+    }
+    .shop2 .simage{
+        width: 40%;
+    }
+    .about-img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    .about-text{
+        width: 100%;
+        margin: 0;
+        padding: 30px 0px 10px 0;
+    }
+    .follow-content{
+        flex-wrap: wrap;
+    }
+    .follow-content img{
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 10px;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .project2{
+        padding-left: unset;
+        border-left: none;
+        border-top: 1px solid rgb(133, 133, 133);
+    }
+    .together-content{
+        flex-direction: column;
+    }
+    .together1 , .together2{
+        width: 100%;
+    }
+    .together2{
+        padding: 15px 30px 15px unset;
+        margin-left: unset;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer .footer1,
+    .footer .footer2{
+        flex-direction: column;
+    }
+    .footer2 a{
+        margin: 10px 0;
+    }
+    .hr4{
+        display: none;
+    }
+
+}
+
